@@ -1,4 +1,4 @@
 # threeGrowth
 
 my selfwrite app with typescript
-an application demonstrating how and in how long to grow a tree
+<h1>An application demonstrating how and in how long to grow a tree</h1>
