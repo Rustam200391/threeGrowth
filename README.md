@@ -1,6 +1,5 @@
 New app about how to calculate time for building home.
-
-
+Finish 
 # threeGrowth
 
 my selfwrite app with typescript
