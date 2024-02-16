@@ -3,6 +3,6 @@ Finish this application and move on to another one
 # threeGrowth
 
 my selfwrite app with typescript
-An application demonstrating how and in how long to grow a tree
-
+An application demonstrating how and in how long to grow a tree.
+We are piling an application, a pet project for an employer.
 # New app into second brunch
