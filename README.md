@@ -1,6 +1,6 @@
 New app about how to calculate time for building home.
 
- <i>The application is self-written</i
+ <i>The application is self-written</
 
 
 
