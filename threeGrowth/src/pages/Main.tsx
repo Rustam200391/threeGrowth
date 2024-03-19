@@ -1,28 +1,24 @@
-import React from 'react'
+import React from 'react';
 
-interface isGrowthDate {
+interface IsGrowthDate {
     threeType: string;
-    // наименование дерева
     gazolineForType: string;
-    // наименование удобрения для дерева(вода)
     countGazoline: number;
-    // количество литров
 }
 
-const isGrowth = ({threeType, gazolineForType,countGazoline}:isGrowthDate):JSX.Element => {
+const IsGrowth: React.FC<IsGrowthDate> = ({ threeType, gazolineForType, countGazoline }) => {
     return (
         <>
             <div>{threeType}</div>
-            <div>{gazolineForType }</div>
-            <div>{ countGazoline }</div>
+            <div>{gazolineForType}</div>
+            <div>{countGazoline}</div>
         </>
-    )
+    );
 }
 
-
-export const isGrowthFunc = () => {
+export const IsGrowthFunc = () => {
+    // Передаем все ожидаемые пропсы компоненту IsGrowth
     return (
-            <isGrowth threeType="three" />
-
-    )
+        <IsGrowth threeType="three" gazolineForType="water" countGazoline={10} />
+    );
 }
