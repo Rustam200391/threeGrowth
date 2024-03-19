@@ -9,17 +9,17 @@ function App() {
     <>
       <h1>ThreeGrowth app</h1>
       <div>
-       
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-   
+        <button >
+         
+        </button>
+          <img src={viteLogo} className="logo" alt="Vite logo" onClick = {() => setCount(count + 1)} />
+             count is {count}
         <a href="https://react.dev" target="_blank">
         </a>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick = {() => setCount(count + 1)}>
-          count is {count}
-        </button>
+       
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
