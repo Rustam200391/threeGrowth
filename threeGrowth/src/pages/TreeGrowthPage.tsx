@@ -50,7 +50,7 @@ const TreeGrowthPage: React.FC = () => {
     return (
         <div>
             <h1>Tree Growth Data</h1>
-            <TreeForm onSubmit={handleAddTree} />
+            <TreeForm onSubmit={(formData: TreeFormData) => handleAddTree(formData)} />
             {treeGrowthData.map((data, index) => (
                 <IsGrowth key={index} {...data} />
             ))}
